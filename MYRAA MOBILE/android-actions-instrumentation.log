@@ -1,0 +1,20 @@
+PASS: native Chrome opening targets the installed browser
+PASS: WP alias opens WhatsApp
+PASS: other installed app names resolve to launcher activities
+PASS: YouTube search uses the requested encoded query
+PASS: browser query text cannot become a URL scheme or extra parameter
+PASS: unavailable YouTube handler falls back to the browser
+PASS: app names never become arbitrary intent or URL targets
+PASS: saved recipient resolves locally and exact WhatsApp draft text is encoded
+PASS: WhatsApp action prepares a draft and never claims it was sent
+PASS: explicit international phone needs no contact access or guessing
+PASS: ambiguous local phone number requires a country code
+PASS: duplicate native action IDs do not launch twice
+PASS: ambiguous contact requires selecting the exact recipient
+PASS: missing WhatsApp is reported honestly
+PASS: unsupported device actions cannot execute
+PASS: desktop and shell tools are rejected by the native bridge
+PASS: background switching requires visible floating controls or returning to MYRAA
+PASS: production native action actually brings installed Chrome to the foreground
+Checks: 18; fixture apps and contacts; no messages sent.
+

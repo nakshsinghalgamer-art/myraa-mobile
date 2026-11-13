@@ -1,0 +1,112 @@
+{
+  "scope": "Bundled mobile UI, real shared PC WebAudio capture/playback, simulated native token and Gemini socket; no Google traffic or platform speech recognizer/TTS",
+  "checks": [
+    {
+      "name": "mobile character gets majority of screen",
+      "passed": true,
+      "detail": {
+        "stage": 526.15625,
+        "chat": 45.84375,
+        "footer": 87,
+        "height": 720
+      }
+    },
+    {
+      "name": "mobile chat and composer remain compact",
+      "passed": true
+    },
+    {
+      "name": "default framing is full body",
+      "passed": true
+    },
+    {
+      "name": "Talk uses native ephemeral provisioning",
+      "passed": true
+    },
+    {
+      "name": "direct in-app Gemini Live constrained websocket",
+      "passed": true
+    },
+    {
+      "name": "same PC Live model and Aoede native audio voice",
+      "passed": true
+    },
+    {
+      "name": "shared engine streams signed PCM at 16kHz",
+      "passed": true
+    },
+    {
+      "name": "microphone remains live inside MYRAA",
+      "passed": true
+    },
+    {
+      "name": "live captions arrive from audio session",
+      "passed": true
+    },
+    {
+      "name": "native Gemini PCM plays through shared engine",
+      "passed": true
+    },
+    {
+      "name": "server interruption flushes playback and returns to listening",
+      "passed": true
+    },
+    {
+      "name": "Live session declares bounded Android action tool",
+      "passed": true
+    },
+    {
+      "name": "voice function call reaches native action bridge",
+      "passed": true
+    },
+    {
+      "name": "native result returns to Gemini with original call ID",
+      "passed": true
+    },
+    {
+      "name": "duplicate Live function call does not repeat the Android action",
+      "passed": true
+    },
+    {
+      "name": "desktop and unknown tools cannot reach native mobile actions",
+      "passed": true
+    },
+    {
+      "name": "typed WP command uses local native actions",
+      "passed": true
+    },
+    {
+      "name": "WhatsApp result truthfully reports a draft requiring Send",
+      "passed": true
+    },
+    {
+      "name": "no platform recognition or TTS or text-chat proxy",
+      "passed": true
+    },
+    {
+      "name": "Stop releases all microphone tracks",
+      "passed": true
+    },
+    {
+      "name": "Stop closes provider socket and resets UI",
+      "passed": true
+    },
+    {
+      "name": "backgrounding stops capture and socket",
+      "passed": true
+    },
+    {
+      "name": "late token after Stop cannot reopen microphone",
+      "passed": true
+    },
+    {
+      "name": "authorized background Live keeps microphone available across app switches",
+      "passed": true
+    },
+    {
+      "name": "notification Stop closes background audio and socket",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "ownerPreferencesPreserved": true,
+  "automaticSending": false,
+  "actualWhatsAppTested": false,
+  "actualChromeLaunch": true,
+  "parserTests": 4,
+  "nativeActionTests": 18,
+  "sharedAudioUiTests": 25,
+  "version": "1.0.0-rc.5",
+  "nativeAudioAuthTests": 39,
+  "apkSha256": "cb7fe31a8bc584a26cf34a482031a9da1858a8ffbffeb19524dce9227ff5a597",
+  "liveGoogleTested": false
+}

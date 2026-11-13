@@ -1,0 +1,41 @@
+PASS: safe structured provider reason: ACCOUNT_STATE_INVALID
+PASS: safe structured provider reason: CONSUMER_SUSPENDED
+PASS: safe structured provider reason: API_KEY_INVALID
+PASS: safe structured provider reason: API_KEY_EXPIRED
+PASS: safe structured provider reason: API_KEY_SERVICE_BLOCKED
+PASS: safe structured provider reason: SERVICE_DISABLED
+PASS: safe structured provider reason: API_KEY_HTTP_REFERRER_BLOCKED
+PASS: safe structured provider reason: API_KEY_IP_ADDRESS_BLOCKED
+PASS: safe structured provider reason: API_KEY_ANDROID_APP_BLOCKED
+PASS: quota is not mislabeled as an invalid key
+PASS: server outage is not mislabeled as account suspension
+PASS: missing model gets its own diagnosis
+PASS: leaked-key error excludes provider payload and credential
+PASS: malformed provider payload stays private
+PASS: real installed activity started with isolated QA preferences
+PASS: verified candidate is encrypted before storage
+PASS: credential travels in a header to the pinned Google host, not the URL
+PASS: validation is metadata-only, refuses redirects and closes its connection
+PASS: saved verification state is honest
+PASS: successful settings change preserves conversation history
+PASS: rejected replacement preserves the previous key and model atomically
+PASS: failed save keeps the dialog and masked draft available for correction
+PASS: UI shows exact Google suspension without echoing the key
+PASS: checking an unsaved candidate does not replace the saved credential
+PASS: connection check preserves unsaved model and key drafts
+PASS: offline graphics changes do not validate or replace the saved key
+PASS: native state never exports plaintext credentials
+PASS: authentication checks preserve existing history
+PASS: live credential is minted natively at the pinned endpoint
+PASS: ephemeral token is single-use and expires without exposing the durable key
+PASS: live provisioning retains header-only credentials and closes native connection
+PASS: in-app websocket requests native Gemini audio
+PASS: real Android WebView microphone streams 16kHz PCM without recognizer activity
+PASS: Gemini live captions update the bundled conversation UI
+PASS: Android WebAudio plays Gemini native PCM without platform TTS
+PASS: explicit Live call has an ongoing microphone foreground service
+PASS: real microphone PCM continues while a different app is foreground
+PASS: notification Stop closes the live socket and releases actual microphone tracks
+PASS: owner preferences file remains byte-for-byte unchanged
+Checks: 39; no live Google traffic.
+
